@@ -1,4 +1,4 @@
-# Shrnk
+# Shrnk — Private Local Image Compression
 
 <p align="center">
   <img src="assets/screenshot.png" width="900" alt="Shrnk interface">
@@ -8,9 +8,15 @@ Shrnk is a lightweight desktop application for local image compression, designed
 
 All processing happens entirely on your machine. No uploads, no cloud processing, and no tracking.
 
+## Download
+
+Prebuilt binaries for macOS and Windows are available in the Releases section:
+
+https://github.com/sepehrmhmdi/shrnk-demo/releases/latest
+
 ## Overview
 
-Shrnk makes it easy to compress images in bulk through a clean drag-and-drop interface while keeping acceptable visual quality and reducing file size significantly in most common cases.
+Shrnk makes it easy to compress images in bulk through a clean drag-and-drop interface while preserving acceptable visual quality while significantly reducing file size in most common cases.
 
 Supported formats:
 
@@ -25,35 +31,28 @@ Core features:
 * Batch processing
 * Drag-and-drop workflow
 * Option to overwrite originals or create compressed copies
-* Output folder shortcut after compression
+* Optional automatic opening of output folder after compression
 * Minimal desktop interface
 
 ## Demo version
 
 This repository contains the public demo version of Shrnk.
 
-The demo is limited to **5 compressed images**, allowing you to test the application before purchasing the full version.
-
-Downloads:
-
-* **Windows** → `Shrnk_Demo_Windows.zip`
-* **macOS** → `Shrnk_Demo_mac.dmg`
+The demo is limited to **5 compressed images**, allowing users to test the application before purchasing the full version.
 
 ## Full version
 
 The unrestricted version is available on Gumroad:
 
-**https://sepehrmn.gumroad.com/**
+https://sepehrmn.gumroad.com/
 
 ## Security notes
 
 Shrnk is currently distributed as an unsigned desktop application.
 
-On first launch:
+Because it is independently distributed and not code-signed yet, your operating system may display a security warning on first launch.
 
 ### macOS
-
-macOS may display a security warning.
 
 To open:
 
@@ -67,20 +66,18 @@ or:
 
 ### Windows
 
-Windows SmartScreen may display a warning.
-
-To continue:
+If SmartScreen appears:
 
 1. Click **More info**
 2. Select **Run anyway**
 
-This is standard behavior for unsigned independent software.
+This is standard behavior for unsigned independent desktop software.
 
 ## Privacy
 
-Shrnk does not transmit any files or collect user data.
+Shrnk does not transmit files, collect analytics, or process any user data remotely.
 
-Everything remains local.
+Everything remains entirely local on your machine.
 
 ## Author
 
