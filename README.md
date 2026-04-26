@@ -44,7 +44,7 @@ The demo is limited to **5 compressed images**, allowing users to test the appli
 
 The unrestricted version is available on Gumroad:
 
-https://sepehrmn.gumroad.com/
+https://sepehrmn.gumroad.com/l/shrnk
 
 ## Security notes
 
